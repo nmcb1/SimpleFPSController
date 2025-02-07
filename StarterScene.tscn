@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://c7yth5opetwes" path="res://textures/kenney-dark-grey-checkerboard-cc0.png" id="5_pnti6"]
 [ext_resource type="Texture2D" uid="uid://b28c62e3f23vb" path="res://textures/kenney-orange-checkerboard-cc0.png" id="6_s6lf8"]
 [ext_resource type="PackedScene" uid="uid://ca0wevg1lb4rx" path="res://utils/WaterMaker3D/WaterMaker3D.tscn" id="8_yjcdx"]
-[ext_resource type="Script" path="res://FPSController/InteractableComponent.gd" id="9_epvnr"]
+[ext_resource type="Script" uid="uid://27un6dd3l16f" path="res://FPSController/InteractableComponent.gd" id="9_epvnr"]
 [ext_resource type="PackedScene" uid="uid://7dm87wp0hyjg" path="res://models/wiggly_hair.tscn" id="12_11xej"]
 [ext_resource type="AudioStream" uid="uid://d3811jtgsamp7" path="res://cc0-die.wav" id="12_44fvf"]
 
@@ -437,7 +437,7 @@ tracks/0/keys = PackedFloat32Array(0, 1, 0, 0, 0, 0.2, 1, 0, -0.000830607, 0, 0.
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_28mlf"]
 _data = {
-"ButtonPress": SubResource("Animation_ae5be")
+&"ButtonPress": SubResource("Animation_ae5be")
 }
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_t86ba"]
@@ -510,8 +510,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_n6uee"]
 _data = {
-"RESET": SubResource("Animation_n3ecy"),
-"open": SubResource("Animation_7w581")
+&"RESET": SubResource("Animation_n3ecy"),
+&"open": SubResource("Animation_7w581")
 }
 
 [sub_resource type="GDScript" id="GDScript_t5kxy"]
@@ -1183,7 +1183,7 @@ skin = SubResource("Skin_ryv6n")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="StaticBody3D/button"]
 libraries = {
-"": SubResource("AnimationLibrary_28mlf")
+&"": SubResource("AnimationLibrary_28mlf")
 }
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
@@ -1214,7 +1214,7 @@ shape = SubResource("ConvexPolygonShape3D_cip7v")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatableBody3D"]
 libraries = {
-"": SubResource("AnimationLibrary_n6uee")
+&"": SubResource("AnimationLibrary_n6uee")
 }
 
 [node name="InteractableComponent" type="Node" parent="AnimatableBody3D"]

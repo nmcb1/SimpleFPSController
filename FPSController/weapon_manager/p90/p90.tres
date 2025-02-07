@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="WeaponResource" load_steps=14 format=4 uid="uid://dbqqt7myed2m0"]
 
-[ext_resource type="Script" path="res://FPSController/weapon_manager/weapon_resource.gd" id="1_3onbh"]
+[ext_resource type="Script" uid="uid://6sytkgfb37x4" path="res://FPSController/weapon_manager/weapon_resource.gd" id="1_3onbh"]
 [ext_resource type="Texture2D" uid="uid://cywm18f0s8epr" path="res://FPSController/weapon_manager/p90/p90-icon.PNG" id="1_4jmrv"]
 [ext_resource type="AudioStream" uid="uid://b1nxny73maex1" path="res://FPSController/weapon_manager/sounds/cc0-415912__okieactor__heathers-gunshot-effect2.wav" id="2_rqbut"]
 [ext_resource type="AudioStream" uid="uid://cchklld8p4183" path="res://FPSController/weapon_manager/sounds/cc0-377145__nioczkus__pistol-draw-unholster.wav" id="3_h21ie"]

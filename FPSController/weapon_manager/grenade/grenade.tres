@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="ProjectileWeaponResource" load_steps=15 format=4 uid="uid://b3rl16usattjg"]
 
 [ext_resource type="Texture2D" uid="uid://d21grxwsdhgeq" path="res://FPSController/weapon_manager/grenade/grenade-icon.PNG" id="1_2nplp"]
-[ext_resource type="Script" path="res://FPSController/weapon_manager/projectile_weapon_resource.gd" id="1_8pbhl"]
+[ext_resource type="Script" uid="uid://eao7akdqqt7" path="res://FPSController/weapon_manager/projectile_weapon_resource.gd" id="1_8pbhl"]
 [ext_resource type="PackedScene" uid="uid://cwdnyyqsa4qsi" path="res://FPSController/weapon_manager/grenade/grenade_projectile.tscn" id="1_q8cdr"]
 [ext_resource type="PackedScene" uid="uid://cylyt34ibs5gx" path="res://FPSController/weapon_manager/grenade/grenade.glb" id="3_f6won"]
 

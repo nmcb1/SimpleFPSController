@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bu6i3jjm3qmrq" path="res://FPSController/weapon_manager/rpg/rocket.tscn" id="1_0ly76"]
 [ext_resource type="Texture2D" uid="uid://bgnvsqeaq81pn" path="res://FPSController/weapon_manager/rpg/rocket-launcher-icon.PNG" id="1_ku5oj"]
-[ext_resource type="Script" path="res://FPSController/weapon_manager/projectile_weapon_resource.gd" id="1_nsrch"]
+[ext_resource type="Script" uid="uid://eao7akdqqt7" path="res://FPSController/weapon_manager/projectile_weapon_resource.gd" id="1_nsrch"]
 [ext_resource type="PackedScene" uid="uid://ualtb5j6bg2n" path="res://FPSController/weapon_manager/rpg/rocket-launcher.glb" id="3_kb014"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y3ce0"]

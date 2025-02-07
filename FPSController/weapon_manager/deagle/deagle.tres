@@ -2,7 +2,7 @@
 
 [ext_resource type="AudioStream" uid="uid://ciia5r5sl6puk" path="res://FPSController/weapon_manager/sounds/cc0-276959__gfl7__pistol-reload-sound.mp3" id="1_6x3ih"]
 [ext_resource type="Texture2D" uid="uid://dyel4dgj54ji5" path="res://FPSController/weapon_manager/deagle/deagle-icon.PNG" id="1_fvho0"]
-[ext_resource type="Script" path="res://FPSController/weapon_manager/weapon_resource.gd" id="1_qno7s"]
+[ext_resource type="Script" uid="uid://6sytkgfb37x4" path="res://FPSController/weapon_manager/weapon_resource.gd" id="1_qno7s"]
 [ext_resource type="PackedScene" uid="uid://w14rtvqe74fc" path="res://FPSController/weapon_manager/deagle/deagle - viewmodel.glb" id="2_iifga"]
 [ext_resource type="PackedScene" uid="uid://dk7rhpeuilvk4" path="res://FPSController/weapon_manager/deagle/deagle.glb" id="3_cuf8r"]
 [ext_resource type="AudioStream" uid="uid://yx2ulxpqvsmj" path="res://FPSController/weapon_manager/sounds/cc0-371041__morganpurkis__single-gunshot-3.wav" id="3_xr1ln"]
